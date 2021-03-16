@@ -1,8 +1,24 @@
 # SO-ProcessScheduling
 CLI application for planification of process in operating systems. (Algorithms: Round Robin with/without priority and first come first served)
 
-## Use
-➜ [informe.pdf](https://github.com/sm-rogrp/SO-ProcessScheduling/blob/master/informe.pdf)
+## Usage
+```
+usage: plapro.py [-h] [-l] [-w WIDTH] {rr,rrp,plpa} fichero
+
+Algoritmos de planificacion de procesos en Sistemas Operativos.
+
+positional arguments:
+  {rr,rrp,plpa}         escoja el algoritmo: 'rr' para 'Round Robin', 'rrp' para 'Round Robin Prioridades', 'plpa'
+                        para 'Primero Llegar Primero Atender'
+  fichero               fichero de donde se leeran los datos de cada procesos
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l, --log             imprimir log de la ejecución de los procesos
+  -w WIDTH, --width WIDTH
+                        otorge un ancho a las celdas de la linea de tiempo de los procesos (default: 5)
+```
+More information ➜ [informe.pdf](https://github.com/sm-rogrp/SO-ProcessScheduling/blob/master/informe.pdf)
 
 ## Example
 
