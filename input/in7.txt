@@ -1,0 +1,7 @@
+# DESCRIPCION: Test primero en llegar primero en atender
+# (*) Formato de Proceso:
+#     PID TIEMPO_LLEGADA DURACION
+1 0 4
+2 3 2
+3 5 3
+4 7 5

@@ -1,0 +1,8 @@
+# DESCRIPCION: Test round robin sin prioridades
+# (*) Para Round Robin sin Prioridades coloque 1 en la prioridad de cada proceso
+# (*) Formato de Proceso:
+#     PID TIEMPO_LLEGADA DURACION PRIORIDAD
+1 0 5 1
+2 3 4 1
+3 5 2 1
+4 7 3 1
